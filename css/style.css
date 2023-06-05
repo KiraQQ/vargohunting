@@ -1,0 +1,351 @@
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/oswald/static/Oswald-Regular.ttf);
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .contactlogo {
+        display: none;
+    }
+}
+
+@media all and (max-width: 575.98px) {
+    .navbar-brand-contain {
+        float: left;
+        background-color: #464E2E;
+    }
+
+    .navbar-brand img {
+        float: left;
+        min-width: 40%;
+    }
+
+    .nav-item {
+        text-align: center;
+        padding-right: 30px;
+    }
+
+    .navbar-toggler {
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+
+    .lightbox-gallery .item img {
+        display: block;
+        margin: 0px auto;
+        transform: scale(0.9);
+    }
+
+    .huntbody img {
+        width: 90%;
+    }
+
+    .huntbody {
+        max-width: 90%;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    .aboutmeimg {
+        min-width: 100%;
+        margin: auto;
+    }
+
+    .col {
+        min-width: 51%;
+    }
+
+    .card {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .contactpic {
+        width: 60%;
+    }
+    
+    #contactpic1 {
+        margin: auto;
+    }
+    
+    #contactpic2 {
+        margin: auto;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .lightbox-gallery .item img {
+        opacity: 0.90;
+    } 
+    
+    .lightbox-gallery .item img:hover {
+        opacity: 1;
+    }
+
+    .contactpic {
+        width: 100%;
+    }
+    
+    
+}
+
+@media all and (min-width: 575.98px) {
+    .nav-space {
+        display: none;
+    }
+    .lightbox-gallery .item img:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .lightbox-gallery .photos {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .lightbox-gallery .item img {
+        margin-bottom: 30px;
+    }
+    
+    .huntbody img {
+        width: 50%;
+    }
+
+    .huntbody {
+        max-width: 80%;
+    }
+    
+    }
+
+.col {
+    padding-top: 1.5rem;
+}
+
+.home-hunts {
+    position: relative;
+    width: 50%;
+}
+
+.home-hunts img {
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.home-hunts .bt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#E9E5D6;
+    border: 2px solid black;
+    color: black;
+    font-size: 16px;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bt {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.bt:hover {
+    color: #E9E5D6;
+    background-color: black;
+}
+
+.price-button {
+    border-radius: 5px;
+    background-color: #E9E5D6;
+    padding: 5px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.carousel-contain {
+    background-color: grey;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.carousel {
+    width: 70%;
+}
+
+.price-button {
+    text-decoration: none;
+}
+
+.price {
+    width: fit-content;
+    display: block;
+    margin: 1.6em auto;
+}
+
+.footer-button {
+    width: fit-content;
+    display: block;
+    margin: auto;
+    padding-bottom: .4em;
+}
+
+.card-link .card-text:hover {
+    color: #ACB992;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #E9E5D6;
+    font-size: 1.4em;
+}
+
+.card-link {
+    text-decoration: none;
+    color: black;
+}
+
+.card-body {
+    padding: .2em;
+}
+
+.montanaHead {
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.huntbody {
+    margin: auto;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: lightgray;
+}
+
+body {
+    margin: auto;
+    background-color: #ACB992;
+    font-family: Oswald;
+}
+
+.navbar {
+    background-color: #362706;
+}
+
+.nav-item {
+    margin-right: .6em;
+    margin-left: .6em;
+}
+
+.navbar {
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+}
+
+.navbar a {
+    color: #E9E5D6;
+    font-size: 22px;
+}
+
+.navbar a:hover {
+    color: #E8CB73;
+}
+
+.dropdown-item:hover {
+    background-color: #362706;
+}
+
+.dropdown ul {
+    background-color: #362706;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand-contain {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+
+.insideblock {
+    background-color: lightgray;
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 1.75em;
+    float: left;
+    width: 95%;
+}
+
+.navbar-brand-contain img {
+    max-width: 25%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.navbar-brand-contain {
+    display: block;
+    margin: auto;
+}
+
+.carousel {
+    margin: auto;
+}
+
+.carousel-item {
+    max-height: 400px;
+}
+
+
+.aboutmeimg {
+    display: block;
+    max-width: 45%;
+    padding: 15px;
+    float: right;
+}
+
+.contactpic {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+}
+
+.aboutpar {
+    text-align: justify;
+    padding-top: 5px;
+}
+
+header {
+    background-color: #464E2E;
+    width: 100%;
+    margin: auto;
+}
+
+html {
+    background-color: #ACB992;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
